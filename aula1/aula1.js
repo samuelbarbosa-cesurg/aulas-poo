@@ -158,7 +158,6 @@ const altura = 1.75;
 const imc = peso/ (altura*altura);
 let classificacaoIMC = '';
 if(imc < 18.5){
-    console.log("Abaixo do peso")
     classificacaoIMC = "Abaixo do peso";
 }else if(imc >= 18.5 && imc <= 24.9){
     classificacaoIMC = "Peso normal"
